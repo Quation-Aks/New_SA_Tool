@@ -10,6 +10,7 @@ import boto3
 from flask import Flask, jsonify, request, send_file
 import botocore
 import csv
+import base64
 import io
 import zipfile
 #from decouple import config
